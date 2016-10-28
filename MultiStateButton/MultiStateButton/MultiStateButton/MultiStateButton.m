@@ -103,7 +103,7 @@
 
 #pragma mark - Setter for State
 -(void) setBtnState:(int)newBtnState {
-    if (btnState_ == btnState_)
+    if (newBtnState == btnState_)
     {return;}
     //--
     btnState_ = newBtnState;
